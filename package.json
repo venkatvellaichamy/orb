@@ -2,9 +2,10 @@
   "name": "orb",
   "version": "0.0.1",
   "description": "a framework for web scrapping in nodejs along with the nodejs apps/ services",
-  "main": "app.js",
+  "main": "./dist/orb.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "grunt babel",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/venkatvellaichamy/orb/issues"
   },
-  "homepage": "https://github.com/venkatvellaichamy/orb#readme"
+  "homepage": "https://github.com/venkatvellaichamy/orb#readme",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "spooky": "^0.2.5",
+    "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.0"
+  }
 }
