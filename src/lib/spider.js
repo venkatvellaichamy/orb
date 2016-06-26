@@ -1,5 +1,5 @@
 import { SpiderBrain } from "./spider_brain";
-import SpiderConfig from "./configs/spider_config";
+import SpiderConfig from "../configs/spider_config";
 import EVENTS from "./events";
 import { Web } from "./web";
 import { EventEmitter } from "events";

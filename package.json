@@ -1,6 +1,6 @@
 {
   "name": "orbs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a framework for web scrapping in nodejs along with the nodejs apps/ services",
   "main": "./dist/orb.js",
   "scripts": {
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/venkatvellaichamy/orb#readme",
   "dependencies": {
+    "firebase": "^3.0.5",
     "lodash": "^4.13.1",
+    "restler": "^3.4.0",
     "spooky": "^0.2.5",
     "utils": "^0.3.1"
   },

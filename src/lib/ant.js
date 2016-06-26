@@ -1,7 +1,7 @@
 import _ from "lodash";
 import EVENTS from "./events";
 import { Web } from "./web";
-import AntConfig from "./configs/ant_config";
+import AntConfig from "../configs/ant_config";
 import { EventEmitter } from 'events';
 
 module.exports.Ant = (function () {

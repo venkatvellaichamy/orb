@@ -1,6 +1,6 @@
 import Spooky from "spooky";
 import util from "utils";
-import SpiderConfig from "./configs/spider_config";
+import SpiderConfig from "../configs/spider_config";
 
 let spiderBrain = (function () {
 
