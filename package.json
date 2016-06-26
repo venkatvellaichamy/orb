@@ -1,6 +1,6 @@
 {
   "name": "orbs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "a framework for web scrapping in nodejs along with the nodejs apps/ services",
   "main": "./dist/orb.js",
   "scripts": {
@@ -22,6 +22,7 @@
     "lodash": "^4.13.1",
     "restler": "^3.4.0",
     "spooky": "^0.2.5",
+    "tiny-jsonrpc": "^2.0.1",
     "utils": "^0.3.1"
   },
   "devDependencies": {
