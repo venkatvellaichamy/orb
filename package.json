@@ -1,6 +1,6 @@
 {
-  "name": "orb",
-  "version": "0.0.1",
+  "name": "orbs",
+  "version": "0.0.3",
   "description": "a framework for web scrapping in nodejs along with the nodejs apps/ services",
   "main": "./dist/orb.js",
   "scripts": {
